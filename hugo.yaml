@@ -53,6 +53,7 @@ params:
   ShowAllPagesInArchive: true
   ShowPageNums: true
   ShowToc: true
+  comments: true
 
   editPost:
     URL: "https://github.com/SuzumiyaAoba/SuzumiyaAoba.github.io/tree/content"
