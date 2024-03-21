@@ -1,0 +1,60 @@
+baseURL: https://SuzumiyaAoba.github.io/
+languageCode: ja-jp
+title: Doing My Share
+theme: ["PaperMod"]
+
+enableDrafts: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts"]
+googleAnalytics: G-Q3Z18PS7B4
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
+defaultContentLanguage: ja
+
+menu:
+  main:
+    - name: Archive
+      url: archives
+      weight: 5
+    - name: Search
+      url: search/
+      weight: 10
+    - name: Tags
+      url: tags/
+      weight: 10
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+cover:
+  hidden: false
+  hiddenInList: false
+  hiddenInSingle: false
+
+params:
+  env: production
+  description: "Doing My Share"
+  author: SuzumiyaAoba
+  defaultTheme: auto
+  ShowShareButtons: true
+  ShowReadingTime: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+
+  editPost:
+    URL: "https://github.com/SuzumiyaAoba/SuzumiyaAoba.github.io/tree/content"
+    Text: "Suggest Changes"
+    appendFilePath: true
